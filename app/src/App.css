@@ -39,7 +39,7 @@
 }
 
 .gradient-text {
-  background: -webkit-linear-gradient(left, #60c657 30%, #35aee2 60%);
+  background: -webkit-linear-gradient(left,#ff8867 30%,  #e0a750 60%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -61,14 +61,14 @@
   color: white;
   background: -webkit-linear-gradient(left, #ff8867, #ff52ff);
   background-size: 200% 200%;
-  animation: gradient-animation 4s ease infinite;
+  animation: gradient-animation 2s ease infinite;
 }
 
 .mint-button {
-  background: -webkit-linear-gradient(left, #4e44ce, #35aee2);
+  background: -webkit-linear-gradient(left, #ee3f82, #f3b768);
   background-size: 200% 200%;
-  animation: gradient-animation 4s ease infinite;
-  margin-left: 10px;
+  animation: gradient-animation 2s ease infinite;
+  margin: auto;
 }
 
 .footer-container {

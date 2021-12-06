@@ -31,3 +31,13 @@
   border-radius: 10px;
   object-fit: cover;
 }
+
+.inline-label {
+  display: flex;
+  margin: auto;
+  padding: 10px;
+}
+
+.bold-text {
+  font-weight: bold;
+}
