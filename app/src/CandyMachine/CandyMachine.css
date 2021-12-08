@@ -10,7 +10,7 @@
 
 .gif-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   grid-gap: 1.5rem;
   justify-items: center;
   margin: 0;
@@ -30,6 +30,11 @@
   height: 200px;
   border-radius: 10px;
   object-fit: cover;
+  box-shadow:
+  20px 5px 40px #CF77F3,
+  0px 5px 40px #009BFF,
+  -20px 5px 40px #2AC9DB;
+  background-image: linear-gradient(-90deg, #CF77F3 0%, #009BFF 47%, #2AC9DB 100%);
 }
 
 .inline-label {
